@@ -5,7 +5,10 @@ document.addEventListener('DOMContentLoaded', start)
 
 function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
-  // one()
+ one()
+ two ()
+ three ()
+ makevisible ()
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -16,6 +19,21 @@ function one () {
 
   // Next, we apply a new CSS class to it:
   one.classList.add('blue')
+}
+
+function two () {
+var two = document.getElementById('two');
+two.classList.add('green');
+}
+
+function three () {
+  var three = document.getElementById('three');
+  three.classList.add('hotpink');
+}
+
+function makevisible () {
+  var makevisible = document.getElementsByClassName('invisible')[0];
+  makevisible.classList.add('visible');
 }
 
 // CREATE FUNCTION two HERE
