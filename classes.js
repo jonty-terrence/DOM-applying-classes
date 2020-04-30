@@ -21,23 +21,19 @@ function one () {
   one.classList.add('blue')
 }
 
+// CREATE FUNCTION two HERE
 function two () {
-var two = document.getElementById('two');
-two.classList.add('green');
-}
+  var two = document.getElementById('two');
+  two.classList.add('green');
+  }
 
+// CREATE FUNCTION three HERE
 function three () {
   var three = document.getElementById('three');
   three.classList.add('hotpink');
 }
-
+// CREATE FUNCTION makeVisible HERE
 function makevisible () {
   var makevisible = document.getElementsByClassName('invisible')[0];
   makevisible.classList.add('visible');
 }
-
-// CREATE FUNCTION two HERE
-
-// CREATE FUNCTION three HERE
-
-// CREATE FUNCTION makeVisible HERE
